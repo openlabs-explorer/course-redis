@@ -1,0 +1,46 @@
+---
+name: Redis
+description: This course Redis concepts and how to get started with using Redis.
+branding:
+    logo: _images/redis_logo.png
+    banner: 
+    textColor: '#000000'
+    header:
+        text: Redis
+        logo: _images/redis_logo.png
+license: 
+duration: 60 mins
+categories:
+    - Backend
+    - Express
+    - Frontend
+intro: readme.md
+documentation: 
+commands:
+    - name: .
+      cmd: 
+      cwd: /home/student
+      stepMessage: .
+environment:
+    terminal:
+        name: Terminal
+        enabled: true
+    ide:
+        name: IDE
+        enabled: true
+        url: '{{ IDE.url }}'
+    application:
+        name: Redis
+        url: '{{ DNS.host }}/ui'
+        enabled: false
+config:
+    launchBtn:
+        buttonLabel: Launch
+    execCmd : 
+        autoExecute: false
+        buttonLabel: Execute Commands
+backend:
+    service: redis
+tileInfo: []
+
+

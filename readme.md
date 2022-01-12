@@ -1,0 +1,1 @@
+This course Redis concepts and how to get started with using Redis.
